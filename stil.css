@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #222629;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    padding: 24px 16px;
+    background-color: #16191b;
+    border-bottom: 2px solid #474b4f;
+    text-align: center;
+}
+
+header .title {
+    font-family: Staatliches, sans-serif;
+    font-size: 56px;
+}
+
+header .title a {
+    color: #86ca32;
+}
+
+header ul {
+    display: flex;
+    margin: 8px 0 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header li {
+    flex: 1 1 128px;
+    max-width: 200px;
+    margin: 16px 8px 0;
+}
+
+header li a {
+    display: block;
+    padding: 8px;
+    background-color: #222629;
+    border: 2px solid #61892f;
+    transition: all 0.2s ease-in-out;
+}
+
+header li a:hover, header li a:focus {
+    border-color: #86ca32;
+}
+
+header li.active a {
+    color: #000000;
+    background-color: #86ca32;
+    border-color: #86ca32;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 24px 16px;
+    color: #6b6e70;
+    background-color: #222629;
+    border-top: 2px solid #474b4f;
+    text-align: center;
+}
+
+footer a {
+    outline: none;
+    fill: #6b6e70;
+    transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+    fill: #ffffff;
+}
+
+footer svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: bottom;
+}
+
+#main {
+    margin: 0 auto 96px;
+    padding: 24px;
+    max-width: 960px;
+}
+
+p, h1, h2 {
+    margin: 0 0 16px;
+}
+
+.license {
+	text-align: right;
+	font-size: 16px;
+	color: rgba(255,255,255,0.6);
+}
+
+.license a {
+	color: rgba(255,255,255,0.6);
+}
+
+.license a:hover {
+	color: #86ca32;
+}

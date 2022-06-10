@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Zgradba | Grafična kartica in njen razvoj</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&amp;family=Staatliches" />
+    <link rel="stylesheet" href="stil.css" />
+  </head>
+  <body>
+    <header>
+      <div class="title"><a href="index.html">Grafična kartica in njen razvoj</a></div>
+      <ul>
+        <li><a href="zgodovina.html">Zgodovina</a></li>
+        <li class="active"><a href="zgradba.html">Zgradba</a></li>
+        <li><a href="izbira.html">Izbira</a></li>
+      </ul>
+    </header>
+    <div id="main">
+      <h1>Zgradba</h1>
+      <p>Sestavni deli grafične kartice</p>
+      <ul>
+        <li>Ohlajevalne enote - najbolj pogosti ventilatorji in bakrene cevi.</li>
+        <li>Povezovalne enote na primer napajalni sistem in reža za SLI ali CrossFire povezavo).</li>
+        <li>Zunanje povezovalne enote - HDMI, DisplayPort, VGA.</li>
+        <li>GPU - ogromno manjših cpu, ki opravljajo le eno delo. Lahko tudi manipulira spomin.</li>
+        <li>Video spomin - za hitro shranjevanje in uporabo podatkov (večinoma VRam).</li>
+        <li>Video BIOS(basic input/output system) - vsebuje majhno količino programa za prvi zagon "setup" in izvaja kontrolo nad grafično kartico.</li>
+        <li>RAMDAC - včasih najpomembnejša komponenta zdaj pa skoraj neobstoječa, saj pretvarja digitalne signale v analogne za prikaz na katodnih ceveh, ki so jih uporabljaji stari monitorji, televizije.</li>
+        <li>Motherboard interface - povezovalni sistem med matično ploščo in grafično kartico. Trenutno najbolj uporabljen PCI Express (Peripheral Component Interconnect Express).</li>
+      </ul>
+      <h2>Terminologija</h2>
+      <p>Ko iščemo grafične kartice se mnogokrat srečamo z veliko računalniškega žargona. Nekaj mogosto uporabljenih besed je:</p>
+      <ul>
+        <li>Memory bandwith - nam pove koliko spomina in kako hitro lahko izkoristi RAM</li>
+        <li>Memory clock/speed - hitrost s katero se spomin prepisuje</li>
+        <li>Memory Interface width - je velikost podatkov, ki jih lahko prenesemo v enem “urnem ciklu” (večinoma 128, 256 ali 384 bit).</li>
+        <li>Cores - število procesnih enot (več kot jih, hitreje deluje saj si porazdelijo delo)</li>
+        <li>Base and boost clock - opisuje frekvenco s katero deluje grafična kartica. Boost clock je najvišja možna frekvenca pri kateri kartica deluje vendar le za kratek čas, saj je pri tem zelo obremenjena.</li>
+        <li>Display - resolucija in hitrost(FPS) s katero prikazuje slike (ne more biti višja od monitorja)</li>
+        <li>Vsi podporni sistemi kot so Ray tracing - zelo napredni način generiranja svetlobe, z namenom lifelike prikaza.</li>
+		<li>Anti Aliasing - način spreminjanja grafike z glajenjem ostrih robov.
+		<li>FSAA - fullscene antialiasing (vzame višjekvalitetno sliko in jo poenostavi da se znebi ostrih robov)</li>
+		<li>VR podpora - poznamo non immersive (igrice v katerem kontroliramo drugo osebo, kot so Fifa), semi immersive (simulatorji letenja za treniranje pilotov), fully immersive - kar mislimo z besedo VR)</li>
+      </ul>
+    </div>
+    <footer>
+      Jure Željko &bull; PEF 2022 &bull;
+      <a href="https://www.instagram.com/jure.zeljko/" title="Instagram"><svg viewBox="0 0 24 24"><path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"></path></svg></a>
+    </footer>
+  </body>
+</html>
