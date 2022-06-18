@@ -99,16 +99,53 @@ p, h1, h2 {
     margin: 0 0 16px;
 }
 
+.gallery {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    align-items: stretch;
+    list-style-type: none;
+}
+
+.gallery li {
+    display: flex;
+    flex: 1 0 400px;
+    margin: 0 8px 16px;
+    padding: 8px;
+    flex-direction: column;
+    color: #222629;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.gallery .caption {
+    text-align: center;
+}
+
+.gallery .subcaption {
+    margin: 4px 0 0;
+    color: #777777;
+    text-align: center;
+    font-size: 14px;
+}
+
+.gallery img {
+    display: block;
+    margin: auto 0;
+    width: 100%;
+}
+
 .license {
-	text-align: right;
-	font-size: 16px;
-	color: rgba(255,255,255,0.6);
+    text-align: right;
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
 }
 
 .license a {
-	color: rgba(255,255,255,0.6);
+    color: rgba(255,255,255,0.6);
 }
 
 .license a:hover {
-	color: #86ca32;
+    color: #86ca32;
 }
